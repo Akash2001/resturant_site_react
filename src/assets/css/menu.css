@@ -1,0 +1,170 @@
+#img p{
+	height: 240px;
+	box-sizing: border-box;
+	margin: 0px;
+	margin-bottom: 15px;
+	padding: 0px;
+}
+#img img{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 10px 10% 10px 10%;
+}
+#menu h2{
+	text-align: center;
+	color: black;
+	width: 30%;
+	font-size: 30px;
+	background-color: red;
+	margin: 0px auto 20px;
+	padding: 0px 30px 0px 30px;
+	font-style: italic;
+	font-weight: bold;
+}
+#mnav div{
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0px 8% 0px 8%;
+	margin: 10px auto 10px;
+}
+#mnav3 div{
+	padding: 0px 35%;
+}
+#mnav2 div{
+	padding: 0px 14% 0px 14%;
+}
+#menu{
+	width: 100%;
+	height: 100%;
+	background:url('../images1/bgsm.jpg');
+	background-size: cover; 
+	background-repeat: no-repeat;
+	margin: 0px auto;
+}
+#menu{
+	box-sizing: border-box;
+	margin: 0px auto 0px; 
+}
+#img{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 30px;
+}
+#mnav p{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#mnav2 p{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#mnav3 p{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+#top{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 35px;
+	font-weight: bold;
+	color: white;
+}
+span{
+	font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	left: 10%;
+	margin: 5px 0px;
+	color: white;
+}
+#mnav a{
+	text-decoration: none;
+}
+#mnav2 a{
+	text-decoration: none;
+}
+#mnav3 a{
+	text-decoration: none;
+}
+#mnav a:hover{
+	color: blue;
+	background-color: white;
+}
+#mnav2 a:hover{
+	color: blue;
+	background-color: white;
+}
+#mnav3 a:hover{
+	color: blue;
+	background-color: white;
+}
+#r img{
+	position: relative;
+	top: 8px;
+}
+#r{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.inner{
+	border:none;
+}
+body{
+	background: black;
+}
+#img div{
+	margin: 0px;
+}
+#mnav,#mnav2,#mnav3{
+	margin: 0px;
+}
+.footer .inner{
+	border-right: 1px solid green;
+}
+#order{
+	background-color: green;
+	padding: 3px;
+	color: white;
+	text-decoration: none;
+}
+ a#order:hover{
+	color: yellow;
+}
+#activeComponent p{
+	background-color: white;
+}
+/***Larger devices***/
+/**@media(min-width: 1200px){
+	#menu{
+		background:url('../images1/bglg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}**/
+
+/***Medium devices***/
+/**@media(min-width: 992px) and (max-width: 1199px){
+	#menu{
+		background:url('./images1/bgmd.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}**/

@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/**body{
+    background-image: url(./images/bg.png);
+    background-size:cover ;
+}**/
+.footer{
+    color: white;
+}
+.hr{
+    border-top: 1px solid black;
+
+}
+.nav{
+    border-bottom:1px solid black ;
+}
+.btn-success{
+    background-color: transparent;
+    border: none;
+}
+.btn-success:hover{
+    text-decoration: none;
+}
+#logo
+{
+    width: 60px;
+    height: auto;
+}
+.car{
+    width: 75%;
+    margin:5px auto 25px;
+    border: 3px solid yellow;
+}
+.car img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+}
+.caraousal{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 10px;
+}
+.inner{
+    border-right: 1px solid green;
+    padding: 20px;
+}
+.inner  .quote{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.inner .lists
+{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 20px;
+    color: white;
+}
+.inner .lists li{
+    border: 1px solid purple;
+    padding: 10px;
+    font-style: italic;
+    
+}
+.inner .lists li:hover {
+    background-color: rgb(207, 196, 196);
+}
+
+.inner .lists li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.inner .data ,.inner .links,.inner .div1
+{
+    padding: 10px;
+    margin: 20px;
+}
+.footer{
+    margin-bottom: 5px;
+    border: 4px solid blue; 
+}
+
+.feedback{
+    background-color: transparent;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: relative;
+}
+
+.feedback p{
+    margin-top: 50px;
+}
+.fdbk,.feedback p{
+    color: aliceblue;
+}
+.myfeed{
+    box-shadow: 10px 10px 20px rgb(187, 172, 172);
+    border: 1px double white;
+    border-radius: 30px;
+    background-color: black;
+}
+i{
+    color: green;
+}
+.checked{
+    color: orange;
+}
+
+.image1 img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.image1 div .name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.footer_img img{
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid rgb(230, 187, 187);
+    border-radius: 20px;
+    overflow: hidden;
+    background: black;
+}
+.footer_img{
+	padding: 20px 25% 20px 25%;
+}
+.footer_quote .quote{
+    margin-top: 80px;
+}
+.copy{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-top: 1px solid gray;
+}
+
+.inner .address_div{
+    margin-top: 10px;
+    padding: 20px;
+    border-style: double;
+    border-radius: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social{
+    text-align: center;
+    padding: 10px;
+}
+.social i:hover{
+    color: blueviolet;
+    font-size: 3.2em;
+}
+.social i{
+    color: white;
+    font-size: 1.7em;
+    padding: 2px;
+    margin-right: 8px ;
+    text-align: center;
+}
+.follow{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+    color: blue;
+}
+
+.order_cont{
+    border: 1px solid rgb(235, 217, 226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px pink;
+    width: 100%;
+    margin:50px auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+form{
+    justify-content: center;
+}
+input,.sl{
+    width: 80%;
+    padding: 20px;
+    text-overflow: clip;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;
+    margin: 20px auto;
+    opacity: 0.7;
+}
+.submt{
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size:1.2em;
+}
+.sl{
+    color: white;
+    background-color: black;
+    opacity: 0.9;
+}
+.cont-2
+{
+    margin: 20px auto;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(14, 15, 15);
+    color: white;
+}
+.prd{
+    text-align: center;
+}
+.prd img{
+    width: 250px;
+}
+.prd input{
+    width: 250px;
+    padding: 5px;
+}
+#price{
+    margin-top: 0px;
+}
+#total ,.tot{
+    font-size: x-large;
+}
+.fab{
+	font-weight: 100;
+}
+
+.feedb{
+	padding: 5px 10% 5px 10%;
+}
+
+.special{
+    border-style: double;
+    border-color: antiquewhite;
+    padding: 50px;
+    margin: 20px auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.special1,.special2,.special3{
+    position: relative;
+    margin: 20px auto;
+    padding: 20px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.special1 img,.special2 img,.special3 img{
+    width: 100%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.special1 p,.special2 p ,.special3 p{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.success{
+    color: #e9ecef;
+}
+.activeComponent{
+    background-color: yellow;
+}
+/***Extra small devices***/
+@media(min-width: 500px) and (max-width: 767px){
+	.car{
+		width: 90%;
+	}
+    .imgage1 img{
+        width: 60%;
+    }
+    .myfeed{
+        width: 70%;
+    }
+}
