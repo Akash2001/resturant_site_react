@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/menu.css';
 import img1 from '../assets/images1/dinner/panner.jpg';
@@ -30,11 +31,11 @@ export default class Dinner extends Component {
         return (
             <div>
                 <div id="top">Remove your hunger!!<br />
-                    <a href="/order" id="order">Order now</a>
+                    <Link to="/order" id="order">Order now</Link>
                 </div>
 
                 <div id="img">
-                    <div id="r" class="row">
+                    <div id="r" className="row">
                         {items.map((items) => {
                             return <MenuItem {...items} />
                         })}

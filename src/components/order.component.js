@@ -63,11 +63,11 @@ export default class Order extends Component {
 
                             <h2>Address for Delivery</h2><br />
 
-                            <input type="text-area" name="textarea" name="area" placeholder="Address" className="address" required /><br />
+                            <input type="text-area" name="textarea" placeholder="Address" className="address" required /><br />
 
                             <input type="text" name="city" placeholder="City" required /><br />
 
-                            <input type="text-area" required name="landmark" name="lm" placeholder="Landmark(e.g. near Hanuman temple....)" /><br />
+                            <input type="text-area" required name="landmark" placeholder="Landmark(e.g. near Hanuman temple....)" /><br />
 
                             <input type="text" placeholder="Apartment Name" name="apt_name" /><br />
 

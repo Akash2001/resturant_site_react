@@ -46,10 +46,10 @@ export default class Footer extends Component {
                                     Follow us for Our New Dish Notification
                                                     </p>
                                 <p className="social">
-                                    <a href="#"><i className="fab fa-instagram"></i></a>
-                                    <a href="#"><i className="fab fa-facebook-square"></i></a>
-                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fas fa-envelope-square"></i></a>
+                                    <a href="/"><i className="fab fa-instagram"></i></a>
+                                    <a href="/"><i className="fab fa-facebook-square"></i></a>
+                                    <a href="/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="/"><i className="fas fa-envelope-square"></i></a>
                                 </p>
                             </div>
                         </div>

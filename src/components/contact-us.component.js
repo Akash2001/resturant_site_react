@@ -1,4 +1,5 @@
 import { Component } from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/contact-us.css';
 
 export default class ContactUs extends Component {
@@ -9,14 +10,9 @@ export default class ContactUs extends Component {
                     <h1>Contact Us</h1>
                     <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
                 </div>
-                <div className="containers">
-                    <div className="contact-Info">
+                <div className="containers row">
+                    <div className="contact-Info col-md-6 col-sm-12">
                         <div className="box">
-
-                            <div className="icon">
-
-
-                            </div>
                             <div className="text">
                                 <h3>Address</h3>
                                 <p>ward no 8 ,<br /> krish nagar,<br />samudrapur.</p>
@@ -26,12 +22,6 @@ export default class ContactUs extends Component {
 
                         </div>
                         <div className="box">
-
-                            <div className="icon">
-
-
-
-                            </div>
                             <div className="text">
                                 <h3>phone</h3>
                                 <p>123-456-789</p>
@@ -42,11 +32,6 @@ export default class ContactUs extends Component {
                         </div>
                         <div className="box">
 
-                            <div className="icon">
-
-
-
-                            </div>
                             <div className="text">
                                 <h3>Email</h3>
                                 <p>teamgeca@gmail.com</p>
@@ -56,7 +41,7 @@ export default class ContactUs extends Component {
 
                         </div>
                     </div>
-                    <div className="contactform">
+                    <div className="contactform box col-md-6 col-sm-12">
                         <form>
                             <h2>Send Massage</h2>
                             <div className="input">

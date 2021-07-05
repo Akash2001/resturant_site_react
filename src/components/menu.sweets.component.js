@@ -4,6 +4,7 @@ import '../assets/css/styles.css';
 import '../assets/css/menu.css';
 import img1 from '../assets/images1/sweet/shira.jpg';
 import MenuItem from "./menu-item.component";
+import { Link } from 'react-router-dom';
 
 export default class Sweets extends Component {
     render() {
@@ -16,11 +17,11 @@ export default class Sweets extends Component {
         return (
             <div>
                 <div id="top">Sweets for completion of dinner<br />
-                    <a href="/order" id="order">Order now</a>
+                <Link to="/order" id="order">Order now</Link>
                 </div>
 
                 <div id="img">
-                    <div id="r" class="row">
+                    <div id="r" className="row">
                         {items.map((items) => {
                             return <MenuItem {...items} />
                         })}

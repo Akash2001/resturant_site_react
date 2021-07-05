@@ -6,6 +6,7 @@ import img1 from '../assets/images1/snacks/noodles.jpg';
 import img2 from '../assets/images1/snacks/burger.jpeg';
 import img3 from '../assets/images1/snacks/salad.jpg';
 import MenuItem from "./menu-item.component";
+import { Link } from 'react-router-dom';
 
 export default class Snacks extends Component {
     render() {
@@ -26,7 +27,7 @@ export default class Snacks extends Component {
         return (
             <div>
                 <div id="top">Remove your hunger!!<br />
-                    <a href="/order" id="order">Order now</a>
+                <Link to="/order" id="order">Order now</Link>
                 </div>
                 <div id="img">
                     <div id="r" className="row">

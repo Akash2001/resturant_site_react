@@ -10,8 +10,51 @@ import dosaImg from "../assets/images1/dosa.jpg";
 import mathaImg from "../assets/images1/drinks/mathha.jpg";
 import pannerImg from '../assets/images1/dinner/panner.jpg';
 
+const FeedBack = (props) => {
+    return (
+        <div className="feedback col-lg-6 col-md-6 col-xs-12">
+            <div className="row feedb">
+                <div className="col-lg-4 image1">
+                    <img src={feedbackImg} alt="Not Found" />
+                    <div className="center">
+                        <span class="stars">
+                        </span><br />
+                        <span className="name center">{props.name}</span>
+                    </div>
+                </div>
+                <div className="col-lg-8">
+                    <p>{props.comment1}<br />{props.comment2}</p>
+                </div>
+            </div>
+        </div>
+    );
+}
+
 export default class Home extends Component {
     render() {
+        const feedBack = [
+            {
+                name: 'Anand Chavan',
+                comment1: 'Nice food.',
+                comment2: 'Food was delicious and nutritive also.',
+            },
+            {
+                name: 'Omkar Desai',
+                comment1: 'The environment of the restaurant is hygenic.',
+                comment2: 'Provided good service'
+            },
+            {
+                name: 'Jayant Updhyay',
+                comment1: 'Good delivery.Deliveres food good packed and fresh.',
+                comment2: 'Easy to order food.'
+            },
+            {
+                name: 'Ramesh Dev',
+                comment1: 'They keep every type of food.Liked the variety and management.',
+                comment2: 'They don\'t take much time to serve food.'
+            }
+
+        ];
         return (
             <div>
                 <Carousel className="car">
@@ -49,97 +92,9 @@ export default class Home extends Component {
                     <h2 className="fdbk">Feedback of our Loveable Customer...</h2>
                     <div className="row">
 
-
-                        <div className="feedback col-lg-6 col-md-6 col-xs-12">
-                            <div className="row feedb">
-                                <div className="col-lg-4 image1">
-                                    <img src={feedbackImg} alt="Not Found" />
-                                    <div className="center">
-                                        <span class="stars">
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                        </span><br />
-                                        <span className="name" className="center">Anand Chavan</span>
-                                    </div>
-                                </div>
-                                <div className="col-lg-8">
-                                    <p>Nice food.<br />Food was delicious and nutritive also.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="feedback col-lg-6 col-md-6 col-xs-12">
-                            <div className="row feedb">
-                                <div className="col-lg-4 image1">
-                                    <img src={feedbackImg} alt="Not Found" />
-                                    <div className="center">
-                                        <span class="stars">
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </span><br />
-                                        <span className="name" className="center">Omkar Desai</span>
-                                    </div>
-                                </div>
-                                <div className="col-lg-8">
-                                    <p>The environment of the restaurant is hygenic. <br />Provided good service</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="row">
-
-
-                        <div className="feedback col-lg-6 col-md-6 col-xs-12">
-                            <div className="row feedb">
-                                <div className="col-lg-4 image1">
-                                    <img src={feedbackImg} alt="Not Found" />
-                                    <div >
-                                        <span className="stars">
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star-o"></i>
-                                        </span><br />
-                                        <span className="name" className="center">Jayant Updhyay</span>
-                                    </div>
-                                </div>
-                                <div className="col-lg-8">
-                                    <p>Good delivery.<br />Deliveres food good packed and fresh.<br />Easy to order food.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                        <div className="feedback col-lg-6 col-md-6 col-xs-12">
-                            <div className="row feedb">
-                                <div className="col-lg-4 image1">
-                                    <img src={feedbackImg} alt="Not Found" />
-                                    <div >
-                                        <span className="stars">
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                            <i class="fa fa-star checked"></i>
-                                        </span><br />
-                                        <span className="name" className="center">Ramesh Dev</span>
-                                    </div>
-                                </div>
-                                <div className="col-lg-8">
-                                    <p>They keep every type of food.<br />Liked the variety and management.<br />They don't take much time to serve food.</p>
-                                </div>
-                            </div>
-                        </div>
+                        {feedBack.map((person) => {
+                            return <FeedBack {...person} />
+                        })}
                     </div>
                 </div>
 
