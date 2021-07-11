@@ -1,4 +1,4 @@
-# resturant_site_react
+# Resturant Site in React
 
 # Deployed at firebase
 https://restaurant-react-site.web.app/
